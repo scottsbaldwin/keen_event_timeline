@@ -10,7 +10,7 @@ In order to use the script, you must have access to a Keen project ID and read k
 
 ```
 export KEEN_PROJECT_ID=your_project_id
-export KEEN_READ_KEY=your_ready_key
+export KEEN_READ_KEY=your_read_key
 ```
 
 Usage
