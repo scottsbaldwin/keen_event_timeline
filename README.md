@@ -21,8 +21,10 @@ To use this script, do the following (make sure you source the .env file first):
 ```
 $ . .env
 $ bundle install
-$ bundle exec ruby timeline.rb
+$ bundle exec ruby timeline.rb SOME_USER_ID
 ```
+
+Replace `SOME_USER_ID` with the ID of a real user that is being tracked in the Keen events. The script looks for this ID in the `user.id` attribute.
 
 This produces something like:
 
